@@ -1,0 +1,15 @@
+C:\Projects\Gramr\Gramr.Data\bin\Debug\net6.0\Gramr.Data.deps.json
+C:\Projects\Gramr\Gramr.Data\bin\Debug\net6.0\Gramr.Data.dll
+C:\Projects\Gramr\Gramr.Data\bin\Debug\net6.0\Gramr.Data.pdb
+C:\Projects\Gramr\Gramr.Data\bin\Debug\net6.0\Gramr.Core.dll
+C:\Projects\Gramr\Gramr.Data\bin\Debug\net6.0\Gramr.Core.pdb
+C:\Projects\Gramr\Gramr.Data\obj\Debug\net6.0\Gramr.Data.csproj.AssemblyReference.cache
+C:\Projects\Gramr\Gramr.Data\obj\Debug\net6.0\Gramr.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Gramr\Gramr.Data\obj\Debug\net6.0\Gramr.Data.AssemblyInfoInputs.cache
+C:\Projects\Gramr\Gramr.Data\obj\Debug\net6.0\Gramr.Data.AssemblyInfo.cs
+C:\Projects\Gramr\Gramr.Data\obj\Debug\net6.0\Gramr.Data.csproj.CoreCompileInputs.cache
+C:\Projects\Gramr\Gramr.Data\obj\Debug\net6.0\Gramr.Data.csproj.CopyComplete
+C:\Projects\Gramr\Gramr.Data\obj\Debug\net6.0\Gramr.Data.dll
+C:\Projects\Gramr\Gramr.Data\obj\Debug\net6.0\refint\Gramr.Data.dll
+C:\Projects\Gramr\Gramr.Data\obj\Debug\net6.0\Gramr.Data.pdb
+C:\Projects\Gramr\Gramr.Data\obj\Debug\net6.0\ref\Gramr.Data.dll

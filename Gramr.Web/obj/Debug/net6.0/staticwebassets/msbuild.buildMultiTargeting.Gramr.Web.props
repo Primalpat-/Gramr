@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Gramr.Web.props" />
+</Project>

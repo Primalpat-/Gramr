@@ -1,0 +1,15 @@
+C:\Projects\Gramr\Gramr.Logic\bin\Debug\net6.0\Gramr.Logic.deps.json
+C:\Projects\Gramr\Gramr.Logic\bin\Debug\net6.0\Gramr.Logic.dll
+C:\Projects\Gramr\Gramr.Logic\bin\Debug\net6.0\Gramr.Logic.pdb
+C:\Projects\Gramr\Gramr.Logic\bin\Debug\net6.0\Gramr.Core.dll
+C:\Projects\Gramr\Gramr.Logic\bin\Debug\net6.0\Gramr.Core.pdb
+C:\Projects\Gramr\Gramr.Logic\obj\Debug\net6.0\Gramr.Logic.csproj.AssemblyReference.cache
+C:\Projects\Gramr\Gramr.Logic\obj\Debug\net6.0\Gramr.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Gramr\Gramr.Logic\obj\Debug\net6.0\Gramr.Logic.AssemblyInfoInputs.cache
+C:\Projects\Gramr\Gramr.Logic\obj\Debug\net6.0\Gramr.Logic.AssemblyInfo.cs
+C:\Projects\Gramr\Gramr.Logic\obj\Debug\net6.0\Gramr.Logic.csproj.CoreCompileInputs.cache
+C:\Projects\Gramr\Gramr.Logic\obj\Debug\net6.0\Gramr.Logic.csproj.CopyComplete
+C:\Projects\Gramr\Gramr.Logic\obj\Debug\net6.0\Gramr.Logic.dll
+C:\Projects\Gramr\Gramr.Logic\obj\Debug\net6.0\refint\Gramr.Logic.dll
+C:\Projects\Gramr\Gramr.Logic\obj\Debug\net6.0\Gramr.Logic.pdb
+C:\Projects\Gramr\Gramr.Logic\obj\Debug\net6.0\ref\Gramr.Logic.dll

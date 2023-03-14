@@ -1,0 +1,102 @@
+﻿@using Gramr.Core.Models.Data
+@using Gramr.Core.Interfaces.Data.Services
+@using Microsoft.AspNetCore.SignalR
+@using System.ComponentModel
+
+@if (_company != null) 
+{
+    <EditForm Model="_company" OnValidSubmit="@(async () => await CompanyFormSubmitted.InvokeAsync(_company))" class="row g-3 justify-content-between">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+
+        <div class="col-12">
+            <label class="form-label">Id</label>
+            <InputText @bind-Value="_company.Id" class="form-control" placeholder="Auto-Generated" disabled></InputText>
+            <ValidationMessage For="() => _company.Id" class="invalid-feedback"></ValidationMessage>
+        </div>
+
+        <div class="col-md-6">
+            <label class="form-label">Ticker</label>
+            <InputText @bind-Value="_company.Ticker" class="form-control" placeholder="Ex: AAPL"></InputText>
+            <ValidationMessage For="() => _company.Ticker" class="invalid-feedback"></ValidationMessage>
+        </div>
+
+        <div class="col-md-6">
+            <label class="form-label">Active</label>
+            <div class="form-check">
+                <InputCheckbox @bind-Value="_company.Active" class="form-check-input"></InputCheckbox>
+            </div>
+            <ValidationMessage For="() => _company.Active" class="invalid-feedback"></ValidationMessage>
+        </div>
+
+        <div class="col-12">
+            <label class="form-label">Name</label>
+            <InputText @bind-Value="_company.Name" class="form-control" placeholder="Ex: Apple Inc"></InputText>
+            <ValidationMessage For="()=>_company.Name" class="invalid-feedback"></ValidationMessage>
+        </div>
+
+        <div class="col-md-6">
+            @if (_company.Id?.Length > 0)
+            {
+                <button type="submit" class="btn btn-primary">Update</button>
+            }
+            else
+            {
+                <button type="submit" class="btn btn-primary">Create</button>
+            }
+        </div>
+
+        <div class="col-md-6">
+            @if (_company.Id?.Length > 0)
+            {
+                <button type="button" @onclick="CancelOrDelete" class="btn btn-outline-danger">Delete</button>
+            }
+            else
+            {
+                <button type="button" @onclick="CancelOrDelete" class="btn btn-outline-danger">Cancel</button>
+            }
+        </div>
+    </EditForm>
+
+
+    <div class="row pt-3 justify-content-center">
+        <div class="col">
+            <h3>Market Data</h3>
+        </div>
+        <div class="col">
+            @if (_loadingMarketData)
+            {
+                <button type="button" @onclick="RefreshMarketData" class="btn btn-primary"><i class="fa-solid fa-sync fa-spin"></i></button>
+            }
+            else
+            {
+                <button type="button" @onclick="RefreshMarketData" class="btn btn-primary"><i class="fa-solid fa-sync"></i></button>
+            }
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <BlazmGrid Data="@_aggregates" PageSize="15" Sortable="true" SortField="@nameof(MarketAggregate.Timestamp)" SortDirection="ListSortDirection.Descending">
+                <GroupHeader>
+                    <h5>@context</h5>
+                </GroupHeader>
+                <GridColumns>
+                    <GridColumn Field="@nameof(MarketAggregate.Timestamp)" Priority="0"></GridColumn>
+                    <GridColumn Field="@nameof(MarketAggregate.Volume)" Priority="0"></GridColumn>
+                    <GridColumn Field="@nameof(MarketAggregate.Transactions)" Priority="3"></GridColumn>
+                    <GridColumn Field="@nameof(MarketAggregate.Open)" Priority="1"></GridColumn>
+                    <GridColumn Field="@nameof(MarketAggregate.High)" Priority="2"></GridColumn>
+                    <GridColumn Field="@nameof(MarketAggregate.Low)" Priority="2"></GridColumn>
+                    <GridColumn Field="@nameof(MarketAggregate.Close)" Priority="1"></GridColumn>
+                    <GridColumn Field="@nameof(MarketAggregate.Average)" Priority="0"></GridColumn>
+                </GridColumns>
+                <EmptyGridTemplate>
+                    No data found
+                </EmptyGridTemplate>
+                <NullGridTemplate>
+                    Loading....
+                </NullGridTemplate>
+            </BlazmGrid>
+        </div>
+    </div>
+}

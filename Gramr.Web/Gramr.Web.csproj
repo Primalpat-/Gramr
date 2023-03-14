@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>51963ad0-7b6d-41bf-b089-b71ff7fd9e77</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazm.Components" Version="1.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj" />
+    <ProjectReference Include="..\Gramr.Core\Gramr.Core.csproj" />
+    <ProjectReference Include="..\Gramr.Data\Gramr.Data.csproj" />
+    <ProjectReference Include="..\Gramr.Logic\Gramr.Logic.csproj" />
+  </ItemGroup>
+
+</Project>

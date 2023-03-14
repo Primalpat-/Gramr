@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Gramr.Web
+build_property.RootNamespace = Gramr.Web
+build_property.ProjectDir = C:\Projects\Gramr\Gramr.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Projects\Gramr\Gramr.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Projects/Gramr/Gramr.Web/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Components/CompanyEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wYW55RWRpdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Components/EmployeeCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFbXBsb3llZUNhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Components/ProfilePicture.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9maWxlUGljdHVyZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Components/QuickViewPopup.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xRdWlja1ZpZXdQb3B1cC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Components/Widgets/EmployeeCountWidget.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXEVtcGxveWVlQ291bnRXaWRnZXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Components/Widgets/InboxWidget.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXaWRnZXRzXEluYm94V2lkZ2V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Pages/CompanyManagement.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFueU1hbmFnZW1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Pages/EmployeeDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVEZXRhaWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Pages/EmployeeOverview.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVPdmVydmlldy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ucso70z42c
+
+[C:/Projects/Gramr/Gramr.Web/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dbssrmo5qx
+
+[C:/Projects/Gramr/Gramr.Web/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Gramr/Gramr.Web/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

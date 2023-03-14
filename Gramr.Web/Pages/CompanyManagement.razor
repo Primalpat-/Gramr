@@ -1,0 +1,34 @@
+﻿@page "/companymanagement"
+
+<PageTitle>Company Management</PageTitle>
+
+<h1>Company Management</h1>
+
+<div class="row">
+    <div class="col-md-auto">
+        @if (Companies == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <select class="form-select" aria-label="select" size="35" @onchange="CompanySelected">
+                <option value="0">Create New Company</option>
+                @foreach (var company in Companies)
+                {
+                    @if (company.Active)
+                    {
+                        <option value="@company.Id">@company.Ticker</option>
+                    }
+                    else
+                    {
+                        <option value="@company.Id"><s>@company.Ticker</s></option>
+                    }
+                }
+            </select>
+        }
+    </div>
+    <div class="col">
+        <CompanyEditor Company="_selectedCompany" CompanyFormSubmitted="CreateOrUpdateCompany" CompanyFormDeleted="DeleteCompany"></CompanyEditor>
+    </div>
+</div>
